@@ -1,5 +1,4 @@
 import json
-import yaml
 
 from six import text_type, PY3
 
@@ -9,8 +8,7 @@ from dataset.util import FreezeException
 TRUISH = ['true', 'yes', '1', 'on']
 
 DECODER = {
-    'json': json,
-    'yaml': yaml
+    'json': json
     }
 
 
